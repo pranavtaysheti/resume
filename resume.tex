@@ -24,7 +24,7 @@
 
 
 % Configure page margins with geometry
-\geometry{left=0.8cm, top=.8cm, right=0.8cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.2cm, top=.8cm, right=1.2cm, bottom=1.8cm, footskip=.5cm}
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
@@ -86,12 +86,12 @@
 \begin{document}
 
 \newlength{\sidewidth}
-\setlength{\sidewidth}{0.2\textwidth - 2pt}
+\setlength{\sidewidth}{0.22\textwidth}
 
 \newlength{\mainwidth}
-\setlength{\mainwidth}{\textwidth-\sidewidth-10pt}
+\setlength{\mainwidth}{\textwidth-\sidewidth-8pt}
 
-\columnratio{0.2}
+\columnratio{0.22}
 
 \makecvheader[C]
 % Print the header with above personal information
@@ -109,38 +109,47 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \begin{paracol}{2}
-    \begin{minipage}{\sidewidth}
-        \input{resume/skills.tex}
-    \end{minipage}
-    %
+    % \begin{tcolorbox}[
+    %         sharp corners,
+    %         left=12mm, right=0mm, top=0mm,
+    %         nobeforeafter,
+    %         colback=blue!3!white,
+    %         spread inwards,
+    %         boxrule=0pt,
+    %     ]
+    % \begin{minipage}{\sidewidth}
+    \input{resume/skills.tex}
+    % \end{minipage}
+    % \end{tcolorbox}
+
     \switchcolumn
-    \begin{minipage}{\mainwidth}
-        \input{resume/summary.tex}
-    \end{minipage}
+    % \begin{minipage}{\mainwidth}
+    \input{resume/summary.tex}
+    % \end{minipage}\\
     %
     \begin{minipage}{\mainwidth}
         \input{resume/education.tex}
-    \end{minipage}
+    \end{minipage}\\
     %
     \begin{minipage}{\mainwidth}
         \input{resume/experience.tex}
-    \end{minipage}
+    \end{minipage}\\
     %
     \begin{minipage}{\mainwidth}
         \input{resume/projects.tex}
-    \end{minipage}
+    \end{minipage}\\
     %
     \begin{minipage}{\mainwidth}
         \input{resume/extracurricular.tex}
-    \end{minipage}
+    \end{minipage}\\
     %
     \begin{minipage}{\mainwidth}
         \input{resume/publication.tex}
-    \end{minipage}
+    \end{minipage}\\
     %
     \begin{minipage}{\mainwidth}
         \input{resume/certificates.tex}
-    \end{minipage}
+    \end{minipage}\\
 \end{paracol}
 
 \end{document}

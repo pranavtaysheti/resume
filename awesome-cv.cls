@@ -758,6 +758,8 @@
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2.0mm}
+  \hyphenpenalty=1000
+  \raggedright
   % \begin{center}
   %   \setlength\tabcolsep{1ex}
   %   \setlength{\extrarowheight}{0pt}
