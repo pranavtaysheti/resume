@@ -23,5 +23,5 @@
 
 *.xdv
 *.synctex.gz
-*.fbd_latexmk
+*.fdb_latexmk
 
