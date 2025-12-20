@@ -5,8 +5,8 @@ by posquit0, which I stole from his repo.
 
 ## License
 
-Except awesome-cv.cls, .yamllink.yaml, Makefile that I stole from upstream any
-other file is not licensed for any use.
+Except `awesome-cv.cls`, `.yamllink.yaml`, `Makefile` any other files are not
+permitted for any use. Do not use my personal information to make your own resume.
 
 LaTeX Project Public License v1.3c
 
