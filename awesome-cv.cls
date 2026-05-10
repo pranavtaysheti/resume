@@ -77,7 +77,7 @@
 % Needed to use icons from font-awesome
 \RequirePackage{fontawesome6}
 \RequirePackage{roboto}
-\RequirePackage[default,opentype]{sourcesanspro}
+\RequirePackage[default,opentype]{sourcesans}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
@@ -165,9 +165,9 @@
 %-------------------------------------------------------------------------------
 \newcommand*{\headerfont}{\roboto}
 \newcommand*{\headerfontlight}{\robotolight}
-\newcommand*{\footerfont}{\sourcesanspro}
-\newcommand*{\bodyfont}{\sourcesanspro}
-\newcommand*{\bodyfontlight}{\sourcesanspro}
+\newcommand*{\footerfont}{\sourcesans}
+\newcommand*{\bodyfont}{\sourcesans}
+\newcommand*{\bodyfontlight}{\sourcesans}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
