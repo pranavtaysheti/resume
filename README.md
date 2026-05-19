@@ -1,7 +1,7 @@
 # Resume
 
-This is my resume in LaTex. Template is lightly modified version of Awesome-CV
-by posquit0, which I stole from his repo.
+This is my resume in LaTex. Template is lightly modified version of Awesome-CV 
+by posquit0
 
 ## License
 
